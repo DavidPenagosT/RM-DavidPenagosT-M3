@@ -1,0 +1,7 @@
+.containerCards { 
+    @include flex(space-between, center, row, wrap); 
+       
+    column-gap: 1px; row-gap: 30px; width: 95%;
+
+    
+    }

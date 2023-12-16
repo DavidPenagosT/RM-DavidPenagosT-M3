@@ -1,0 +1,9 @@
+.containerNav {
+    @include background-color(0.3);
+    @include flex(left, flex-end, row);
+    
+    height: 80px;
+    position: fixed;
+    top: 10;
+    width: 150vw;
+ }
