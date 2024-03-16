@@ -3,8 +3,8 @@ import validation from './errors.js'
 
 const Form  = ({onLogin}) => {
     const [form, setForm] = useState({
-        mail: "test@gmail.com",
-        password: "123456"
+        mail: "davidcito@gmail.com",
+        password: "dave12345"
     })
     const [errors, setErrors] = useState({
         mail: "",
